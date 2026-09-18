@@ -1,9 +1,9 @@
 const Navbar = () => {
   return (
     <div className="bg-zinc-900 text-white w-full">
-      <nav className="max-w-7xl mx-auto h-16 flex items-center justify-between px-6 md:px-6 py-4">
+      <nav className="max-w-7xl mx-auto h-16 flex items-center md:justify-evenly px-6 md:px-6 py-4">
         <h1 className="text-2xl font-bold text-blue-500">PortFolio</h1>
-        <div className="hidden md:flex items-center justify-between gap-10">
+        <div className="hidden md:flex items-center justify-between gap-19">
           <ul className="list-none flex gap-10">
             <li className="cursor-pointer hover:text-blue-400 transition-colors">Home</li>
             <li className="cursor-pointer hover:text-blue-400 transition-colors">Skills</li>

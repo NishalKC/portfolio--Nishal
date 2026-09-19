@@ -69,9 +69,9 @@ const Projects = () => {
 
 
   return (
-    <div className="mt-15 px-5 md:px-10 py-5  flex flex-col gap-4">
+    <div id="Projects" className="mt-15 px-5 md:px-10 py-5  flex flex-col gap-4">
         <h1 className="text-4xl">Projects</h1>
-        <div className="flex flex-col mt-5 md:flex-row flex-wrap gap-6 md:p-3">
+        <div className="flex flex-col mt-5 md:flex-row flex-wrap gap-10 md:p-3">
             {projects.map((project, index) => {
                 return <ProjectCard  key={index} project={project}/>
             }

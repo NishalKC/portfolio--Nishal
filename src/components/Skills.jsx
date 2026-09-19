@@ -61,7 +61,7 @@ const tools = [
 ];
 
   return (
-    <div className='bg-zinc-800 mt-10 flex flex-col px-10 py-9'>
+    <div id="Skills" className='bg-zinc-800 mt-10 flex flex-col px-10 py-10'>
       <h1 className="text-4xl mb-4"> Skills & technologies</h1>
       <div className="flex flex-col gap-3 mt-5">
           <div>

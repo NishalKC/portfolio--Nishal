@@ -5,12 +5,12 @@ const Navbar = () => {
         <h1 className="text-2xl font-bold text-blue-500">PortFolio</h1>
         <div className="hidden md:flex items-center justify-between gap-19">
           <ul className="list-none flex gap-10">
-            <li className="cursor-pointer hover:text-blue-400 transition-colors">Home</li>
-            <li className="cursor-pointer hover:text-blue-400 transition-colors">Skills</li>
-            <li className="cursor-pointer hover:text-blue-400 transition-colors">Projects</li>
-            <li className="cursor-pointer hover:text-blue-400 transition-colors">Contact</li>
+            <li className="cursor-pointer hover:text-blue-400 transition-colors"><a href="#Home">Home</a></li>
+            <li className="cursor-pointer hover:text-blue-400 transition-colors"><a href="#Skills">Skills</a></li>
+            <li className="cursor-pointer hover:text-blue-400 transition-colors"><a href="#Projects">Projects</a></li>
+            <li className="cursor-pointer hover:text-blue-400 transition-colors"><a href="#contact">Contact</a></li>
           </ul>
-          <a href="https://github.com/NishalKC/" className="border px-3 py-1 border-blue-500 cursor-pointer text-blue-400 ">Github profile</a>
+          <a href="https://github.com/NishalKC/" className="border px-3 py-1 border-blue-500 cursor-pointer text-blue-400 hover:bg-blue-500 hover:text-white transition-colors rounded-md">Github profile</a>
         </div>
       </nav>
     </div>

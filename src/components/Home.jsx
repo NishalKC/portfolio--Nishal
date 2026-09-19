@@ -1,7 +1,7 @@
 import coverImage from "../assets/Nishal.jpg"
 const Home = () => {
   return (
-    <div className="md:mt-10 mx-auto flex max-w-7xl flex-col-reverse items-center justify-between gap-10 px-6 py-16 md:justify-around md:flex-row md:py-19">
+    <div id="Home" className=" md:mt-10 mx-auto flex max-w-7xl flex-col-reverse items-center justify-between gap-10 px-6 py-16 md:justify-around md:flex-row md:py-19">
       <div className="max-w-xl text-center align-middle md:text-left">
         <h1 className="text-4xl font-bold text-white md:text-6xl">
           Hi, I am <br /> <span className="text-blue-500">Nishal KC</span>

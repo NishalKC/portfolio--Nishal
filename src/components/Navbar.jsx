@@ -10,7 +10,7 @@ const Navbar = () => {
             <li className="cursor-pointer hover:text-blue-400 transition-colors">Projects</li>
             <li className="cursor-pointer hover:text-blue-400 transition-colors">Contact</li>
           </ul>
-          <h1 className="border px-3 py-1 border-blue-500 cursor-pointer text-blue-400 ">Github profile</h1>
+          <a href="https://github.com/NishalKC/" className="border px-3 py-1 border-blue-500 cursor-pointer text-blue-400 ">Github profile</a>
         </div>
       </nav>
     </div>

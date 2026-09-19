@@ -4,3 +4,7 @@ body {
     background: var(--color-zinc-900);
     color: white;
 }
+#ProjectCard:hover{
+    transform: translateY(-3px);
+}
+

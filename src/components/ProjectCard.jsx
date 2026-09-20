@@ -28,7 +28,7 @@ const ProjectCard = ({project}) => {
             }
             )}
         </div>
-        <h1 className="text-zinc-400 text-xl hover:underline cursor-pointer transform-all">visit </h1>
+        <h1 className="text-zinc-400  hover:underline cursor-pointer transform-all">Visit{"-->"} </h1>
     </div>
   )
 }

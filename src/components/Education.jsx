@@ -12,7 +12,7 @@ const Education = () => {
     <div className="flex flex-col px-10 py-10 gap-6">
       <h1 className="text-4xl font-semibold">Education</h1>
 
-      <div className="bg-zinc-800 rounded-xl p-6">
+      <div className="  rounded-xl p-6">
         <div className="flex justify-between items-start flex-wrap gap-3">
           <div>
             <h2 className="text-2xl font-semibold">

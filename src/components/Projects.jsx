@@ -17,7 +17,8 @@ const Projects = () => {
       "JWT",
       "Multer",
       "Cloudinary"
-    ]
+    ],
+    link: "https://bloging-app-amber.vercel.app/"
   },
   {
     title: "Social Media App",
@@ -33,7 +34,8 @@ const Projects = () => {
       "JWT",
       "Multer",
       "Bcrypt"
-    ]
+    ],
+    link: "https://socialmediaapp-eifr.onrender.com/"
   },
   {
     title: "Scatch Store",
@@ -49,7 +51,8 @@ const Projects = () => {
       "JWT",
       "Multer",
       "Bcrypt"
-    ]
+    ],
+    link: "https://scatch-zore.onrender.com"
   },
   {
     title: "HeartStroke Predictor",
@@ -63,7 +66,8 @@ const Projects = () => {
       "Pandas",
       "NumPy",
       "Matplotlib"
-    ]
+    ],
+    link: "https://heartstrokepredection-nsdk2fzfhnwry5i9wyc5gv.streamlit.app/"
   }
 ];
 

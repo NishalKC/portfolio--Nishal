@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section id="contact" className="bg-zinc-800 px-10 py-16">
+    <section id="Contact" className="bg-zinc-800 px-10 py-16">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-4xl font-semibold text-white">Get In Touch</h1>
 
@@ -13,16 +13,13 @@ const Contact = () => {
         </p>
 
         <div className="mt-8 flex flex-col gap-4">
-          {/* Email */}
           <a
-            href="mailto:n56007185@email.com"
+            href="mailto :n56007185@email.com"
             className="flex items-center gap-3 p-4 rounded-xl bg-zinc-700 hover:bg-zinc-600 transition-colors"
           >
             <Mail className="text-blue-400" size={20} />
             <span className="text-zinc-200">n56007185@email.com</span>
           </a>
-
-          {/* GitHub */}
           <a
             href="https://github.com/NishalKC"
             target="_blank"
@@ -32,8 +29,6 @@ const Contact = () => {
             <FaGithub className="text-blue-400 text-xl" />
             <span className="text-zinc-200">github.com/NishalKC</span>
           </a>
-
-          {/* LinkedIn */}
           <a
             href="https://linkedin.com/in/your-linkedin"
             target="_blank"
@@ -44,7 +39,6 @@ const Contact = () => {
             <span className="text-zinc-200">LinkedIn Profile</span>
           </a>
 
-          {/* Location */}
           <div className="flex items-center gap-3 p-4 rounded-xl bg-zinc-700">
             <MapPin className="text-blue-400" size={20} />
             <span className="text-zinc-200">Nepal</span>

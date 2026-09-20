@@ -28,7 +28,11 @@ const ProjectCard = ({project}) => {
             }
             )}
         </div>
-        <h1 className="text-zinc-400  hover:underline cursor-pointer transform-all">Visit{"-->"} </h1>
+        <h1 className="text-zinc-400  hover:underline cursor-pointer transform-all">
+            <a href={project.link}  target="_blank" rel="noopener noopener">
+            Visit{"-->"}   
+            </a>
+            </h1>
     </div>
   )
 }

@@ -30,7 +30,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://linkedin.com/in/your-linkedin"
+            href="https://www.linkedin.com/in/nishal-kc-289662359/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-400 transition-colors"

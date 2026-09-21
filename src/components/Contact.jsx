@@ -30,7 +30,7 @@ const Contact = () => {
             <span className="text-zinc-200">github.com/NishalKC</span>
           </a>
           <a
-            href="https://linkedin.com/in/your-linkedin"
+            href="https://linkedin.com/in/nishal-kc-289662359/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 p-4 rounded-xl bg-zinc-700 hover:bg-zinc-600 transition-colors"

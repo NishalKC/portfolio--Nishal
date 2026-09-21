@@ -5,10 +5,8 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="flex items-center justify-evenly px-6 py-4 bg-zinc-900 text-white">
+    <nav className="flex items-center justify-between md:justify-evenly px-6 py-4 bg-zinc-900 text-white">
       <h1 className="text-xl font-bold">Portfolio</h1>
-
-      {/* Desktop Menu */}
       <div className="hidden md:flex gap-8 items-center">
         <a href="#Home" className="p-1 hover:text-blue-500 transition-colors">Home</a>
         <a href="#Projects" className="p-1 hover:text-blue-500 transition-colors">Projects</a>
@@ -21,7 +19,7 @@ const Navbar = () => {
           href="https://github.com/NishalKC"
           target="_blank"
           rel="noopener noreferrer"
-          className="border border-blue-500 px-3 py-1 rounded-md text-blue-400 hover:bg-blue-500 hover:text-white transition"
+          className="border hidden md:flex border-blue-500 px-3 py-1 rounded-md text-blue-400 hover:bg-blue-500 hover:text-white transition"
         >
           GitHub
         </a>

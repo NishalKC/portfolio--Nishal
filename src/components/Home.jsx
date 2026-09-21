@@ -15,7 +15,7 @@ const Home = () => {
             turning ideas into real projects and continuously learning new technologies to
             grow as a software engineer.
           </p>
-        <button className="text-blue-500 border border-blue-400 px-3 py-1 mt-5 rounded-md">Contact me</button>
+        <button className="text-blue-500 border border-blue-400 px-3 py-1 mt-5 rounded-md hover:bg-blue-500 hover:text-white transition-colors">Contact me</button>
       </div>
       <div className="flex justify-center">
         <img 

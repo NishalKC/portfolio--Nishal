@@ -9,7 +9,12 @@ const Home = () => {
         <p className="mt-4 text-xl text-zinc-400 md:text-2xl">
           I am a Full Stack Developer
         </p>
-        <p className="mt-3 w-90 md:w-110 tracking-tight">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint est dolor minus laborum aspernatur, asperiores sed? Nisi consequuntur obcaecati voluptatem quidem ad quas recusandae culpa libero nobis soluta. Blanditiis, beatae.</p>
+        <p className="mt-3 w-90 md:w-110 tracking-tight">
+            I'm Nishal KC, a passionate developer from Nepal who enjoys building modern web
+            applications and exploring AI, Machine Learning, and game development. I love
+            turning ideas into real projects and continuously learning new technologies to
+            grow as a software engineer.
+          </p>
         <button className="text-blue-500 border border-blue-400 px-3 py-1 mt-5 rounded-md">Contact me</button>
       </div>
       <div className="flex justify-center">
